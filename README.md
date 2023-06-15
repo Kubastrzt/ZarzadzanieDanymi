@@ -1,3 +1,1 @@
-# WORK IN PROGRESS
-
-https://ciao-fakestore.netlify.app/
+w64899 sklep internetowy
