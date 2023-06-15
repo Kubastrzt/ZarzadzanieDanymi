@@ -17,9 +17,6 @@ const Filter=(props)=>{
                 
             <input type="checkbox" className="filter-input" name="one" value="1" onClick={()=>props.clickHandle(this)}></input>
             <label htmlFor="one" className="filter-label">between 1 and 2</label>
-                
-            <input type="checkbox" className="filter-input" name="reset" value="0" onClick={()=>props.clickHandle(this)}></input>
-            <label htmlFor="reset" className="filter-label">Clear</label>
         </div>
     </div>
     )

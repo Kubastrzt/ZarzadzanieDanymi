@@ -38,6 +38,14 @@ const Product = ()=>{
         slider.scrollLeft+=260
         slider.style.transitionDuration="0.3s"
     }
+
+    React.useEffect(() => {
+        const interval = setInterval(scrollRight, 3000);
+
+        return () => {
+            clearInterval(interval);
+        };
+    }, [scrollRight]);
     
 
     return(

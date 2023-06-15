@@ -13,20 +13,20 @@ export const Home = () => {
 	return (
 		<section className="landing">
 			<header className="store-intro">
-				<h1>Welcome to Ciaos</h1>
+				<h1>Welcome to shopper</h1>
 				<p className="short">
 					The best online store with headquarter in Rzeszow
 				</p>
 			</header>
 			<div className="landing-welcome-desktop">
 				<div className="landing-elements-wrapper">
-					<h2 className="headings align-left">CIAO</h2>
+					<h2 className="headings align-left">shopper</h2>
 					<p className="sup-text">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 					</p>
 				</div>
 				<img
-					src={require('../images/landing-cart.jpg')}
+					src={require('../images/landing.jpg')}
 					className="landing-img"
 					alt=""
 					aria-hidden
@@ -51,21 +51,21 @@ export const Home = () => {
 							img="commingsoon.png"
 							title="Comming soon"
 							description="Lorem ipsum dolor sit amet."
-							time="July 18, 2022 15:01"
+							time="July 18, 2023 15:01"
 							link="a"
 						/>
 						<Blog
 							img="blog-ideas.jpg"
 							title="New ideas"
 							description="Lorem ipsum dolor sit amet."
-							time="July 10, 2022 15:23"
+							time="July 10, 2023 15:23"
 							link="a"
 						/>
 						<Blog
 							img="commingsoon.png"
 							title="Comming soon"
 							description="Lorem ipsum dolor sit amet."
-							time="July 30, 2022 22:53"
+							time="July 30, 2023 22:53"
 							link="a"
 						/>
 					</div>

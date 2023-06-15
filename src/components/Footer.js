@@ -24,7 +24,7 @@ const Footer = ()=>{
                 <h6>JOIN US</h6>
                 <p>Join our newsletter and stay updated with news</p>
             </div>
-            <p className="copy">All rights reserved &copy;Ciao</p>
+            <p className="copy">All rights reserved &copy;shopper (w64899)</p>
         </footer>
     )
 }
