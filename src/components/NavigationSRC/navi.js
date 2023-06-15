@@ -39,7 +39,7 @@ export default () => {
                                                  aria-label="Aux menu">
                                                 <ul>
                                                     <li className="block-navigation__item block-navigation__item--mega-menu">
-                                                        {!account ? <a className="block-navigation__item-content" target="blank"
+                                                        {!account.log ? <a className="block-navigation__item-content" target="blank"
                                                             href="/login">
                                                             <span
                                                                 className="block-navigation__item-label aux-menu-return">Sign up!</span>
